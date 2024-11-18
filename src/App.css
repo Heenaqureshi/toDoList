@@ -1,0 +1,127 @@
+
+body {
+  background-image: linear-gradient(to right,#575656, #062e3f);
+  color: white;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Work Sans', sans-serif;
+  padding-top: 3%;
+}
+.header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  color: white;
+  font-size: 3rem;   
+  letter-spacing: 0.20rem;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.title:hover {
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.input-group .todo-input {
+  padding: 12px;
+  font-size: 14px;
+  outline: none;
+  border: none;
+}
+.input-group .todo-input:hover {
+  padding: 12px;
+  font-size: 14px;
+  outline: none;
+  border: none;
+}
+::placeholder{
+  font-size: 13px;
+  padding-left: 5px;
+  color: gray !important;
+}
+form button {  
+  min-width: 50px;
+}
+.input-group .btn.btn-light {
+  font-size: 22px;
+  font-weight: 700;
+  background-color: gainsboro;
+  border: none;
+}
+.input-group .btn.btn-light:hover {
+  font-size: 22px;
+  font-weight: 700;
+  background-color: gray;
+  color: white;
+  border: none;
+}
+.container ul li {
+  background-color: black;
+  color: white;
+  list-style-type: none;
+  border-radius: 50rem;
+  padding-left: 10px;
+  font-size: 13px;
+  height: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.todo-task {
+  border: 0px solid black;
+  width: 350px;
+  height: 35px;
+  padding: 4px;
+  padding-left: 10px;
+  color: white;
+  background-color: #062e3f;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.todo .edit_btn {
+  height: 35px;
+  background-color: #062e3f;
+  color: white;
+  border: none;
+  padding: 5px;
+}
+.todo .delete_btn {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-right: 10px;
+  height: 35px;
+  background-color: #062e3f;
+  color: white;
+  border: none;
+}
+.todo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* @media only screen and (max-width: 600px) {
+  body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+} */
+.title {
+  animation-name: example;
+  animation-duration: 5s;
+  white-space: pre;
+  overflow: hidden;     
+  letter-spacing: 0.20rem;
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+}
+@keyframes example{
+  from{width: 0%;}
+  to{width: 100%;}
+}
